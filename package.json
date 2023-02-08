@@ -36,8 +36,7 @@
     "clean": "git clean -fdX dist",
     "prepack": "npm run build",
     "test": "tsc -p test/tsconfig.json && jest",
-    "lint": "eslint --max-warnings=0 --cache .",
-    "prepare": "husky install"
+    "lint": "eslint --max-warnings=0 --cache ."
   },
   "peerDependencies": {
     "oidc-client-ts": "file:../oidc-client-ts",
