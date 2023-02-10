@@ -39,7 +39,7 @@
     "lint": "eslint --max-warnings=0 --cache ."
   },
   "peerDependencies": {
-    "oidc-client-ts": "file:../oidc-client-ts",
+    "oidc-client-ts": "file:oidc-client-ts-2.2.1.tgz",
     "react": ">=16.8.0"
   },
   "devDependencies": {
